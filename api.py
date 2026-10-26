@@ -19,8 +19,8 @@ def home():
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "http://localhost:5173",
-    "https://researchmind-ai-frontend-xvfe.onrender.com",
+        "http://localhost:5173",
+        "https://researchmind-ai-frontend-xvfe.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
