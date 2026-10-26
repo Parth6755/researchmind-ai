@@ -29,7 +29,7 @@ export default function App() {
   const [result, setResult] = useState(null)
   const [error, setError] = useState('')
   const [history, setHistory] = useState(initialHistory)
-  const [apiUrl, setApiUrl] = useState('http://localhost:8000')
+  const [apiUrl, setApiUrl] = useState('https://researchmind-ai-afcf.onrender.com')
   const [showSettings, setShowSettings] = useState(false)
 
   async function startResearch() {
