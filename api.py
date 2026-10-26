@@ -20,7 +20,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://researchmind-ai-frontend-xhve.onrender.com",
+        "https://researchmind-ai-frontend-xvhe.onrender.com",
     ],
     allow_credentials=False,
     allow_methods=["*"],
